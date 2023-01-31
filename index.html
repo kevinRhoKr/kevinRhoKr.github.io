@@ -1,12 +1,103 @@
 <html>
-	<head>
-		<title>My Website</title>
-	</head>
 
-	<body>
-		<main style="background-color: pink;">
-			<p>Look at this now~</p>
-			<p>lkasdflkdjas</p>
-		</main>
-	</body>
+	<style>
+	body {
+	  background-color: linen;
+	}
+
+	h1 {
+	  color: maroon;
+	}
+
+	img {
+	  border-radius: 20px;
+	  max-width: 50%;
+  	  height: auto;
+  	  width:  700px;
+	  height: 300px;
+	  background-size: cover;
+	}
+
+	details {
+		padding: 20px;
+	}
+
+	.hide {
+		position: relative;
+
+	}
+
+	.new {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		transition: .5s ease;
+	}
+
+	.hide:hover .new {
+	  opacity: 1;
+	}
+
+	.new {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -webkit-transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	}
+
+	</style>
+
+	<head>
+		<title>
+			Kevin Rho's Response
+		</title>
+		<body>
+			<main>
+				<center>
+					<h1>Kevin Rho</h1>
+					<h3 style="color:grey">Response to the reading</h3>
+					<h3>Hover over the image!!!</h3>
+				</center>
+			</main>
+			<div class="hide">
+				<center><img src="original.jpeg" alt="Original Eden"></center>
+				<div class="new">
+					<center>
+						<img src="eden.jpeg" alt="Eden.Garden">
+					</center>
+				</div>
+			</div>
+			<center>
+					<details>
+				    <summary style="cursor: pointer;">Changes in Technology?</summary>
+				    
+				    <span style="background-color: red; color:white;">
+				    	Changes in Art too!!
+				    	<br>
+				    	Introduction of computer to Introduction of digital art
+				    </span>
+
+				    <p>
+				    	<span style="background-color: #FFFF00">
+				    		<br>
+				    		"history of sculpture is a history of technology" - Auriea Harvey
+
+				    		<br><br>New web 3.0 may lead to new form of art :D
+				    	</span>
+				    </p>
+				    <br>
+				    <h4>
+
+				    </h4>
+				</details>
+			</center>
+		</body>
+	</head>
 </html>
