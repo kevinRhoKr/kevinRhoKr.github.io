@@ -1,0 +1,22 @@
+* {
+    background-color: rgb(136, 115, 89);
+
+}
+
+.main {
+    text-align: center;
+    margin:40px;
+}
+
+.rotate img{
+    transition: 3s ease;
+}
+    
+.rotate img:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+    border-radius: 50%;
+
+}
