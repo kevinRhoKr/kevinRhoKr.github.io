@@ -1,0 +1,72 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  p {
+    background: rgb(198,138,18);
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  span {
+    background: red;
+    border: 1px solid black;
+  }
+
+.positioned {
+    position: relative;
+    background: yellow;
+    top: 30px;
+    left: 30px;
+    transition: 3s ease;
+  }
+
+.positioned:hover {
+    -webkit-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    transition: 1s ease;
+    background-color: black;
+}
+
+#jeeho {
+    transition: 3s ease;
+    background-color: greenyellow;
+}
+
+#jeeho:hover {
+    -webkit-transform: rotateZ(-360deg);
+    -ms-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+    transition: 1s ease;
+    background-color: red;
+}
+
+img {
+    transition: 3s ease;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    height: 50%;
+    
+}
+
+
+img:hover {
+    -webkit-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+    position:absolute;
+    position:relative;
+    top:60px;
+    left:100px;
+}
+
+#title {
+    position: sticky;
+    top: 30px;
+    left: 30px;
+}
