@@ -1,0 +1,74 @@
+.sun {
+    text-align: center;
+    position: fixed;
+    top:40%;
+    left: 20%;
+    border-radius: 50%;
+    animation-name: sunny;
+    animation-duration:10s;
+    background-color: orangered;
+}
+
+@keyframes sunny {
+    from {background-color: yellow;}
+    to {background-color: orangered;}
+}
+
+.cloud1 {
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    animation-name: cloudy;
+    animation-duration: 10s;
+    background-color: aqua;
+    border-radius: 30%;
+}
+
+@keyframes cloudy {
+    from {left: 40%; background-color: aqua;}
+    to {left: 70%; background-color: orange;}
+}
+
+.cloud2 {
+    text-align: center;
+    position: fixed;
+    top: 60%;
+    left: 30%;
+    animation-name: cloudy2;
+    animation-duration: 10s;
+    background-color: aqua;
+    border-radius: 30%;
+}
+
+@keyframes cloudy2 {
+    from {left: 30%; background-color: aqua;}
+    to {left: 50%; background-color: orange;}
+}
+
+
+.cloud3 {
+    text-align: center;
+    position: fixed;
+    top: 80%;
+    left: 70%;
+    animation-name: cloudy3;
+    animation-duration: 10s;
+    background-color: aqua;
+    border-radius: 30%;
+}
+
+@keyframes cloudy3 {
+    from {left: 70%; background-color: aqua;}
+    to {left: 80%; background-color: orange;}
+}
+
+html {
+    margin: 0;
+    height: 100%;
+    background: url("https://www.creativefabrica.com/wp-content/uploads/2022/02/12/Summer-beach-sunset-sky-background-Graphics-25099719-1-580x344.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100%;
+}
