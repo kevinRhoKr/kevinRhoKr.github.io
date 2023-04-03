@@ -1,0 +1,81 @@
+.next {
+    width: 0;
+    height: 0;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    border-top: 20px solid transparent;
+    border-left: 40px solid red;
+    border-bottom: 20px solid transparent;
+}
+
+.prev {
+    width: 0;
+    height: 0;
+    position: fixed;
+    top: 90%;
+    left: 10%;
+    border-top: 20px solid transparent;
+    border-right: 40px solid red;
+    border-bottom: 20px solid transparent;
+}
+
+img {
+    height: 20%;
+    width: 30%;
+    border: 4mm ridge rosybrown;
+    border-radius: 10px;
+}
+
+.body {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.flexing {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border: thick double #32a1ce;
+}
+
+.flexing > img {
+    border: none;
+    background-color: orange;
+    width: 30%;
+    margin: 10px;
+    padding: 30px;
+  }
+
+  .rotate {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    animation: rotation 20s infinite linear;
+  }
+
+  .rotate2 {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    animation: rotation2 20s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  @keyframes rotation2 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-359deg);
+    }
+  }
