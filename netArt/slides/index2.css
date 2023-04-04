@@ -1,0 +1,61 @@
+    .charts{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+       
+    }
+    #chart{
+        padding-top: 30px;
+    }
+    .header{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .browsersss{
+        border: 3px solid black;
+        padding: 30px;
+        width: 400px;
+        height: 70px;
+        /* margin: 20px 500px; */
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .browsers{
+        border: 3px solid black;
+        padding: 30px;
+        width: 600px;
+        height: 130px;
+        /* margin: 20px 400px;  */
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        font-weight: bold;
+    }
+    #bing{
+        padding-top: 83px;
+    }
+
+    #yahoo{
+        padding-top: 85px;
+    }
+
+    #fireFox{
+        padding-top: 85px;
+    }
+    #opera{
+        padding-top: 85px;
+    }
+    .browserImages{    
+        text-align: center;
+        height: 150px;
+    }
+
+    .percentage{
+        font-size: 20px;
+        font-weight: bold;
+    }    
