@@ -96,11 +96,58 @@ a.slide__next,
 
 @media screen and (min-width: 800px) {
   body {
-    background-image: linear-gradient(to right, lightblue , lightgreen);
+    background-image: linear-gradient(to right, rgb(198, 214, 219) , rgb(129, 209, 236));
 
   }
 }
 
 h2 {
   font-style: bold;
+}
+
+
+.next {
+  width: 0;
+  height: 0;
+  position: fixed;
+  top: 90%;
+  left: 90%;
+  border-top: 20px solid transparent;
+  border-left: 40px solid red;
+  border-bottom: 20px solid transparent;
+}
+
+.prev {
+  width: 0;
+  height: 0;
+  position: fixed;
+  top: 90%;
+  left: 10%;
+  border-top: 20px solid transparent;
+  border-right: 40px solid red;
+  border-bottom: 20px solid transparent;
+}
+
+.rotate {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  animation: rotation 20s infinite linear;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+body {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+
 }
