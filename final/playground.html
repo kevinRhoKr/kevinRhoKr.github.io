@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slash the Word!</title>
     <link rel="stylesheet" href="playground.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
     <script src="./playground.js" defer></script>
   </head>
   <body>
     <h2>Level 1</h2>
-    <div>
+    <div class="container">
         <p id="a">apple</p>
         <p id="b">book</p>
         <p id="c">desk</p>
@@ -27,14 +29,18 @@
         <p id="m">computer</p>
         <p id="n">laptop</p>
         <p id="o">keyboard</p>
+        <!-- https://www.vecteezy.com/free-png/earth -->
+        <img src="https://static.vecteezy.com/system/resources/previews/009/314/440/original/earth-globe-clip-art-vector-illustration-isolated-free-png.png">
     </div>
+
 
     
 
     <button>Ready? Press to start!</button>
+    <h3>Your input (start typing after starting!):</h3>
 
     <div class="input">
-
+      <p id="typed-text"></p>
     </div>
   </body>
 </html>
