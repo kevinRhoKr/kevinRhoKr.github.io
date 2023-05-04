@@ -1,0 +1,30 @@
+h1 {
+  color: white;
+  font-size: 80px;
+}
+.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 20px;
+  font-family: "Sedgwick Ave Display", cursive;
+  cursor: pointer;
+}
+
+.container {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  font-family: "Sedgwick Ave Display", cursive;
+}
