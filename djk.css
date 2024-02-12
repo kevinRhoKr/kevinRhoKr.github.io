@@ -7,6 +7,14 @@
     margin-bottom: 80px;
   }
 
+.colCenter {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+
   .center.p {
     font-style: italic;
 
