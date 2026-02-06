@@ -13,14 +13,20 @@ setInterval(() => {
 yesBtn.addEventListener('click', () => {
     document.body.innerHTML = `
         <div class="container thank-you">
-            <img src="gif.gif">
-            <h1>Yay!</h1>
+            <h1>Thank You! 💕</h1>
+            <p>I knew you'd say yes! 😊</p>
         </div>
     `;
 });
 
-// No button jumps to random position on hover
+// No button jumps to random position on hover (desktop)
 noBtn.addEventListener('mouseenter', () => {
+    moveNoButtonToRandomPosition();
+});
+
+// No button jumps to random position on touch (mobile)
+noBtn.addEventListener('touchstart', (e) => {
+    e.preventDefault(); // Prevent default touch behavior
     moveNoButtonToRandomPosition();
 });
 

@@ -71,6 +71,7 @@ button {
     color: #666;
     position: absolute;
     left: 200px;
+    touch-action: manipulation;
 }
 
 /* Thank you page styles */
