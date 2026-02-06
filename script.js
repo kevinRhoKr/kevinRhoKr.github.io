@@ -13,8 +13,8 @@ setInterval(() => {
 yesBtn.addEventListener('click', () => {
     document.body.innerHTML = `
         <div class="container thank-you">
-            <h1>Thank You! 💕</h1>
-            <p>I knew you'd say yes! 😊</p>
+            <img src="gif.gif"> 
+            <h1>Yay!</h1>
         </div>
     `;
 });
